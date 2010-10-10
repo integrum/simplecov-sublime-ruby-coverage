@@ -2,13 +2,12 @@ require 'rubygems'
 require 'rake'  
 require 'echoe'  
   
-Echoe.new('simplecov_csv_formatter', '0.1.0') do |p|  
+Echoe.new('simplecov-csv', '0.1.3') do |p|  
   p.description     = "CSV formatter for SimpleCov"  
-  p.url             = "http://github.com/eifion/uniquify"  
-  p.author          = "Eifion Bedford"  
-  p.email           = "eifion@asciicasts.com"  
-  p.ignore_pattern  = ["tmp/*", "script/*"]  
-  p.development_dependencies = []  
-end  
-  
-Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
+  p.url             = "http://github.com/fguillen/simplecov-csv"
+  p.author          = "Fernando Guillen http://fernandoguillen.info"
+  p.email           = "fguillen.mail@gmail.com"
+  p.ignore_pattern  = ["tmp/*", "script/*"]
+  p.development_dependencies = []
+  p.runtime_dependencies = ['simplecov']
+end
