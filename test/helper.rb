@@ -1,10 +1,11 @@
 require 'rubygems'
 require 'test/unit'
-require 'shoulda'
+require 'mocha'
+require 'simplecov'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'simple_cov-html'
+require 'simplecov_csv_formatter'
 
 class Test::Unit::TestCase
 end
