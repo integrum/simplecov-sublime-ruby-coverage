@@ -4,11 +4,11 @@ Is a CSV formatter for the ruby 1.9+ coverage gem: {SimpleCov}[http://github.com
 
 == Install
 
-    $ [sudo] gem install simplecov_csv
+    $ [sudo] gem install simplecov-csv
 
 == Usage
 
-    require 'simplecov_csv'
+    require 'simplecov-csv'
     SimpleCov.formatter = SimpleCov::Formatter::CSVFormatter
 
 == TODO
