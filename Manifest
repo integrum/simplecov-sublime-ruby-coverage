@@ -2,7 +2,6 @@ Manifest
 README.rdoc
 Rakefile
 lib/simplecov-csv-more.rb
-simplecov-csv-more.gemspec
 test/fixtures/app/controllers/sample_controller.rb
 test/fixtures/app/models/user.rb
 test/fixtures/sample.rb
