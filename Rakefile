@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'  
 require 'echoe'  
   
-Echoe.new('simplecov-csv-more', '0.0.1') do |p|  
+Echoe.new('simplecov-csv-more', '0.0.2') do |p|  
   p.description     = "CSV (and more!) formatter for SimpleCov"  
   p.url             = "http://github.com/integrum/simplecov-csv-more"
   p.author          = "Integrum Dudes http://integrumtech.com"
