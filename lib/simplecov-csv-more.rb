@@ -13,14 +13,12 @@ class SimpleCov::Formatter::CSVMoreFormatter
 
     result.files.each do |file|
       data = []
-      data << ["Covered"]
 
       file.lines.each do |line|
-        data << [line.covered?]
+        data << (line.covered? || line.skipped? ? '1' : '0')
       end
 
-      csv = data.map{|row| row.join(',')}.join("\n")
-
+      csv = data.join("\n")
 
       result_file_path = File.join(output_path, relative_filename(shortened_filename(file)))
       File.open(result_file_path, "w") do |file_result|
