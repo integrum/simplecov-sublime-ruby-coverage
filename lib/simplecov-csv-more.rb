@@ -15,7 +15,7 @@ class SimpleCov::Formatter::CSVMoreFormatter
       data = []
 
       file.lines.each do |line|
-        data << (line.covered? || line.skipped? ? '1' : '0')
+        data << ((line.covered? || line.status == 'never') ? '1' : '0')
       end
 
       csv = data.join("\n")
