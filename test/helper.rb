@@ -5,7 +5,7 @@ require 'simplecov'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'simplecov-csv'
+require 'simplecov-csv-more'
 
 class Test::Unit::TestCase
 end

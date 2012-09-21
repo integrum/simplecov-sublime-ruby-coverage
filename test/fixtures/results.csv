@@ -1,4 +1,31 @@
-File,% covered,Lines,Relevant Lines,Lines covered,Lines missed
-"./fixtures/app/controllers/sample_controller.rb",60,10,5,3,2
-"./fixtures/app/models/user.rb",80,10,5,4,1
-"./fixtures/sample.rb",100,10,5,5,0
+File,Line Number,Covered
+./test/fixtures/app/controllers/sample_controller.rb,1,false
+./test/fixtures/app/controllers/sample_controller.rb,2,true
+./test/fixtures/app/controllers/sample_controller.rb,3,true
+./test/fixtures/app/controllers/sample_controller.rb,4,true
+./test/fixtures/app/controllers/sample_controller.rb,5,false
+./test/fixtures/app/controllers/sample_controller.rb,6,false
+./test/fixtures/app/controllers/sample_controller.rb,7,false
+./test/fixtures/app/controllers/sample_controller.rb,8,false
+./test/fixtures/app/controllers/sample_controller.rb,9,false
+./test/fixtures/app/controllers/sample_controller.rb,10,false
+./test/fixtures/app/models/user.rb,1,false
+./test/fixtures/app/models/user.rb,2,true
+./test/fixtures/app/models/user.rb,3,true
+./test/fixtures/app/models/user.rb,4,true
+./test/fixtures/app/models/user.rb,5,false
+./test/fixtures/app/models/user.rb,6,false
+./test/fixtures/app/models/user.rb,7,true
+./test/fixtures/app/models/user.rb,8,false
+./test/fixtures/app/models/user.rb,9,false
+./test/fixtures/app/models/user.rb,10,false
+./test/fixtures/sample.rb,1,false
+./test/fixtures/sample.rb,2,true
+./test/fixtures/sample.rb,3,true
+./test/fixtures/sample.rb,4,true
+./test/fixtures/sample.rb,5,false
+./test/fixtures/sample.rb,6,false
+./test/fixtures/sample.rb,7,true
+./test/fixtures/sample.rb,8,true
+./test/fixtures/sample.rb,9,false
+./test/fixtures/sample.rb,10,false
