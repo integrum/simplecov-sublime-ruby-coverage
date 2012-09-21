@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "simplecov-csv-more"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Integrum Dudes http://integrumtech.com"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "CSV (and more!) formatter for SimpleCov"
   s.email = "everyone+github@integrumtech.com"
   s.extra_rdoc_files = ["README.rdoc", "lib/simplecov-csv-more.rb"]
-  s.files = ["Manifest", "README.rdoc", "Rakefile", "lib/simplecov-csv-more.rb", "test/fixtures/app/controllers/sample_controller.rb", "test/fixtures/app/models/user.rb", "test/fixtures/results.csv", "test/fixtures/sample.rb", "test/helper.rb", "test/simplecov-csv-more_test.rb", "simplecov-csv-more.gemspec"]
+  s.files = ["Manifest", "README.rdoc", "Rakefile", "lib/simplecov-csv-more.rb", "simplecov-csv-more.gemspec", "test/fixtures/app/controllers/sample_controller.rb", "test/fixtures/app/models/user.rb", "test/fixtures/results.csv", "test/fixtures/sample.rb", "test/helper.rb", "test/simplecov-csv-more_test.rb"]
   s.homepage = "http://github.com/integrum/simplecov-csv-more"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Simplecov-csv-more", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
