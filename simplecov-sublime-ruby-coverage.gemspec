@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = "2012-09-24"
   s.description = "Sublime Ruby Coverage formatter for SimpleCov"
   s.email = "everyone+github@integrumtech.com"
-  s.extra_rdoc_files = ["README.rdoc", "lib/simplecov-csv-more.rb"]
-  s.files = ["Manifest", "README.rdoc", "Rakefile", "lib/simplecov-csv-more.rb", "simplecov-csv-more.gemspec", "test/fixtures/app/controllers/sample_controller.rb", "test/fixtures/app/models/user.rb", "test/fixtures/sample.rb", "test/fixtures/test-fixtures-app-controllers-sample_controller_rb.csv", "test/fixtures/test-fixtures-app-models-user_rb.csv", "test/fixtures/test-fixtures-sample_rb.csv", "test/helper.rb", "test/simplecov-csv-more_test.rb", "simplecov-sublime-ruby-coverage.gemspec", "test/simplecov-sublime-ruby-coverage_test.rb"]
+  s.extra_rdoc_files = ["README.md", "lib/simplecov-sublime-ruby-coverage.rb"]
+  s.files = ["README.md", "Rakefile", "lib/simplecov-sublime-ruby-coverage.rb", "simplecov-sublime-ruby-coverage.gemspec", "test/fixtures/app/controllers/sample_controller.rb", "test/fixtures/app/models/user.rb", "test/fixtures/sample.rb", "test/fixtures/test-fixtures-app-controllers-sample_controller_rb.csv", "test/fixtures/test-fixtures-app-models-user_rb.csv", "test/fixtures/test-fixtures-sample_rb.csv", "test/helper.rb", "test/simplecov-sublime-ruby-coverage_test.rb", "Manifest"]
   s.homepage = "http://github.com/integrum/simplecov-sublime-ruby-coverage"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Simplecov-sublime-ruby-coverage", "--main", "README.md"]
   s.require_paths = ["lib"]

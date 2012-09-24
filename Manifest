@@ -2,7 +2,7 @@ Manifest
 README.md
 Rakefile
 lib/simplecov-sublime-ruby-coverage.rb
-simplecov-csv-more.gemspec
+simplecov-sublime-ruby-coverage.gemspec
 test/fixtures/app/controllers/sample_controller.rb
 test/fixtures/app/models/user.rb
 test/fixtures/sample.rb

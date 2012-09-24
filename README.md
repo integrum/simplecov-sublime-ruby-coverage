@@ -22,7 +22,11 @@ The actual version generates many simple text files, one for every source file.
 Credits
 =======
 
-*Authors* Drew LeSueur, Jade Meskill and Roy van de Water: (http://integrumtech.com)
-*Copyright* Copyright (c) 2012 Integrum Technologies, LLC
-*License* Released under the MIT license.
-*Originally Forked From* (http://github.com/fguillen/simplecov-csv)
+**Authors** Drew LeSueur, Jade Meskill and Roy van de Water: (http://integrumtech.com)
+
+**Copyright** Copyright (c) 2012 Integrum Technologies, LLC
+
+**License** Released under the MIT license.
+
+**Originally Forked From** (http://github.com/fguillen/simplecov-csv)
+
