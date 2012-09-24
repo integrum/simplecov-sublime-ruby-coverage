@@ -1,7 +1,7 @@
 Manifest
-README.rdoc
+README.md
 Rakefile
-lib/simplecov-csv-more.rb
+lib/simplecov-sublime-ruby-coverage.rb
 simplecov-csv-more.gemspec
 test/fixtures/app/controllers/sample_controller.rb
 test/fixtures/app/models/user.rb
@@ -10,4 +10,4 @@ test/fixtures/test-fixtures-app-controllers-sample_controller_rb.csv
 test/fixtures/test-fixtures-app-models-user_rb.csv
 test/fixtures/test-fixtures-sample_rb.csv
 test/helper.rb
-test/simplecov-csv-more_test.rb
+test/simplecov-sublime-ruby-coverage_test.rb
