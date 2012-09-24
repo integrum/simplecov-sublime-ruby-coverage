@@ -1,6 +1,6 @@
 require "#{File.dirname(__FILE__)}/helper"
 
-class SimplecovCsvFormatterTest < Test::Unit::TestCase
+class SimplecovSublimeRubyCoverageFormatterTest < Test::Unit::TestCase
   def test_format
     SimpleCov.stubs(:coverage_path).returns("/tmp")
 
@@ -11,7 +11,7 @@ class SimplecovCsvFormatterTest < Test::Unit::TestCase
     }
 
     @result = SimpleCov::Result.new(@original_result)
-    formatter = SimpleCov::Formatter::CSVMoreFormatter.new()
+    formatter = SimpleCov::Formatter::SublimeRubyCoverageFormatter.new()
     formatter.format(@result)
 
     Dir[File.join(formatter.output_path, '*')].each do |output_file_path|

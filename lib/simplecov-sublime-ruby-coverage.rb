@@ -1,7 +1,7 @@
 require 'fileutils'
 require 'pathname'
 
-class SimpleCov::Formatter::CSVMoreFormatter
+class SimpleCov::Formatter::SublimeRubyCoverageFormatter
 
   def format(result)
 
@@ -30,7 +30,7 @@ class SimpleCov::Formatter::CSVMoreFormatter
   end
 
   def output_path
-    File.join SimpleCov.coverage_path, 'csv-more'
+    File.join SimpleCov.coverage_path, 'sublime-ruby-coverage'
   end
 
   private
